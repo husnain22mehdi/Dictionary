@@ -1,0 +1,91 @@
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url('img.jpg') no-repeat center fixed;    
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    /* filter: blur(8px); */
+}
+
+/* Styling the h1 element i.e the main heading (My Dictionary Search) */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 50px;
+    box-shadow: black;
+    position: relative;
+    top: 100px;
+    border: 5px solid black;
+    border-style: double;
+
+}
+
+/* Styling the form i.e, search bar */
+form {
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+
+/* Styling form label */
+label {
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Styling the search bar */
+input[type="text"] {
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the search button */
+button {
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* On hover CSS */
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Styling the h2 element i.e, Search Results*/
+h2 {
+    margin-top: 20px;
+    position: relative;
+    top: 290px;
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+/* Styling the p tag i.e, the results (meanings) */
+p {
+    margin: 5px 0;
+    position: relative;
+    top: 300px;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+    font-style: normal;
+}
